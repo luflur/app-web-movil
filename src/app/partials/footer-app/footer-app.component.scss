@@ -1,0 +1,42 @@
+.footer-app {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  font-family: Avenir !important;
+
+  .pdp-tyc {
+    background-color: #000000;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 40px;
+
+    .txt-links {
+      color: #ffffff;
+      font-size: 12px;
+      text-align: center;
+      line-height: 26px;
+    }
+  }
+
+  .img-footer {
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    .copy {
+      text-align: center;
+      font-size: 10px;
+      color: #000000;
+      letter-spacing: 0.5px;
+      padding: 15px;
+    }
+
+    .liston-img {
+      width: 56px;
+      height: 28px;
+    }
+  }
+}
