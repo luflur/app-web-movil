@@ -31,7 +31,7 @@ export class LeftSidebarComponent implements OnInit{
   }
 
   public goBasesPromocion(){
-
+    this.router.navigate(["bases-promocion"])
   }
 
   public goTiendasParticipantes(){

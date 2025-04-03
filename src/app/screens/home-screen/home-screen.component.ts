@@ -51,7 +51,7 @@ export class HomeScreenComponent implements OnInit{
   }
 
   public registrarCodigo(){
-
+    this.router.navigate(["bases-promocion"]);
   }
 
   public obtenerCodigos(){

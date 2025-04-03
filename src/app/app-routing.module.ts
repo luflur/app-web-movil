@@ -3,6 +3,8 @@ import { RouterModule, Routes } from '@angular/router';
 import { LoginScreenComponent } from './screens/login-screen/login-screen.component';
 import { RegistroScreenComponent } from './screens/registro-screen/registro-screen.component';
 import { HomeScreenComponent } from './screens/home-screen/home-screen.component';
+import { BasesPromocionScreenComponent } from './screens/bases-promocion-screen/bases-promocion-screen.component';
+import { PoliticaPrivacidadScreenComponent } from './screens/politicas-privacidad-screen/politicas-privacidad-screen.component';
 
 const routes: Routes = [
   {
@@ -15,6 +17,14 @@ const routes: Routes = [
   },
   {
     path: 'home', component:HomeScreenComponent,
+    pathMatch: 'full',
+  },
+  {
+    path: 'bases-promocion', component:BasesPromocionScreenComponent,
+    pathMatch: 'full',
+  },
+  {
+    path: 'politica-privacidad', component:PoliticaPrivacidadScreenComponent,
     pathMatch: 'full',
   }
 ];
